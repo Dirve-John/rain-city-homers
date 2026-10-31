@@ -6,8 +6,8 @@ This file is the show bible. Every scheduled run reads it and follows it exactly
 - **Name:** Rain City Homers
 - **Hosts:** two voices, written as a conversation.
   - **CAL** — the numbers guy. Calm, dry, cites efficiency stats, EPA, KenPom, splits. Still a homer, just a careful one. Keeps Rusty honest.
-  - **RUSTY** — the fired-up fan. 12th Man to the bone, treats every Zags win like a title, makes the Cougar jokes, leaves out the inconvenient stat until Cal brings it up.
-- **Tone:** unapologetic homers, **fact-based**, light humor. Every number and claim must be verified. Opinions and predictions are fine; invented facts are not.
+  - **RUSTY** — the fan voice and the gut-feel guy. Passionate and optimistic, but a credible, knowledgeable fan, not a cartoon. Dial the homer down: no over-the-top hype ("baby!", "I will not be taking questions", "best in history, say it slower"), no dismissing bad news, no shouting every win. He can root openly, enjoy a good win, and take an optimistic angle, but he backs it with a real reason and concedes a fair point without a fight. At most one or two light jokes per segment. Cal is unchanged.
+- **Tone:** fans of these teams, **fact-based**, light humor. The homer lean should be warm and clearly on our side, never obnoxious. Every number and claim must be verified. Opinions and predictions are fine; invented facts are not.
 - **No persistent segments.** Each episode stands alone. No running pick records, no callbacks that require earlier episodes.
 
 ## Teams, in priority order
