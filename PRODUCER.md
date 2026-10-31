@@ -11,10 +11,10 @@ This file is the show bible. Every scheduled run reads it and follows it exactly
 - **No persistent segments.** Each episode stands alone. No running pick records, no callbacks that require earlier episodes.
 
 ## Teams, in priority order
-1. Gonzaga men's basketball
+1. Gonzaga men's basketball — on air, always call them **"the Zags."** Not "Gonzaga," not "the Bulldogs," not "Gonzaga basketball."
 2. Seattle Seahawks
 3. Seattle Mariners
-4. Washington Huskies football
+4. Washington Huskies football — **football only.** Never cover other UW sports (no Husky hoops, etc.).
 
 Weight airtime by season. In-season teams get recaps **and analysis** (why it happened, what it means, what to watch). Out-of-season teams get a short segment only when there is real news (trades, signings, coaching, injuries, portal/recruiting). If there's nothing, skip the team with one line.
 
