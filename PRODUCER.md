@@ -25,9 +25,9 @@ Include, in this order of importance:
 3. The biggest broader sports stories (NBA, NHL, golf, tennis, soccer, Olympics, etc.).
 
 ## Schedule & episode types
-- **Monday 5:00 AM Eastern — Weekend Recap:** results and analysis from the weekend + week-ahead look.
-- **Friday 5:00 AM Eastern — Weekend Preview:** matchups, injuries, lines, keys to the game, a prediction from each host.
-- Slow weeks (byes, dead periods): publish only one episode that week (skip Friday) and keep it short.
+- **Monday, published by 5:00 AM Eastern — Weekend Recap:** results and analysis of everything since Thursday's episode, plus a look at anything happening Monday through Wednesday (e.g. a Monday night Seahawks game, midweek Zags games).
+- **Thursday, published by 5:00 AM Eastern — Weekend Preview:** results since Monday, then the upcoming slate through Sunday: matchups, injuries, lines, keys to the game, and a prediction from each host. If the Seahawks play Thursday night, preview that game first.
+- Slow weeks (byes, dead periods): publish only the Monday episode that week (skip Thursday) and keep it short.
 - **Length:** usually 20–30 minutes (~3,000–4,500 words). Up to 45 minutes (~6,500 words) only in very heavy weeks. Never pad.
 
 ## Research rules
@@ -43,10 +43,11 @@ Include, in this order of importance:
 - Open with a quick hello and the rundown; close with a quick recap and "This has been Rain City Homers."
 
 ## Production steps (each run)
+0. Setup: `pip install -q edge-tts`. Work in the repo clone. If it's missing, clone https://github.com/Dirve-John/rain-city-homers. Pull `main` first.
 1. Research (see rules above).
 2. Write `scripts/YYYY-MM-DD-<type>.txt`.
 3. `python3 tools/make_audio.py scripts/<file>.txt episodes/YYYY-MM-DD-<type>.mp3`
-4. Add an entry to `episodes.json` (file, title, 1–3 sentence description, RFC 2822 pub_date, duration_sec from ffprobe).
+4. Add an entry to `episodes.json` (file, title, 1–3 sentence description, pub_date = that day at 5:00 AM Eastern in RFC 2822 form with the correct UTC offset, duration_sec from ffprobe).
 5. `python3 tools/build_feed.py .` (also prunes to the newest 10 episodes).
 6. Commit and push to `main`. GitHub Pages publishes the feed.
 
